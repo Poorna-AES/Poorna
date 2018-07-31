@@ -1,0 +1,181 @@
+
+
+ 
+ <style>
+    #myFooter {
+    background-color: #444755;
+    color:white;
+    }
+    
+    #myFooter .footer-copyright{
+    background-color: #313030;
+    padding-top:3px;
+    padding-bottom:3px;
+    text-align: center;
+    }
+    
+    #myFooter .footer-copyright p{
+    margin:10px;
+    color: #ccc;
+    }
+    
+    #myFooter ul{
+    list-style-type: none;
+      padding-left: 0;
+      line-height: 1.7;
+    
+    }
+    
+    #myFooter h5{
+    font-size: 18px;
+      color: white;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    
+    #myFooter a{
+    color:#d2d1d1;
+    text-decoration: none;
+    }
+    
+    #myFooter a:hover, #myFooter a:focus{
+    text-decoration: none;
+    color:white;
+    }
+    
+    #myFooter .myCols{
+    text-align: center;
+    }
+    
+    #myFooter .social-networks{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 38px;
+    }
+    
+    #myFooter .social-networks a{
+      font-size: 32px;
+      margin-right: 5px;
+      margin-left: 5px;
+      color: #f9f9f9;
+      padding: 10px;
+      transition: 0.2s;
+    }
+    
+    #myFooter .social-networks a:hover{
+    text-decoration: none;
+    
+    }
+    
+    #myFooter .facebook:hover{
+    color:#0077e2;
+    }
+    
+    #myFooter .google:hover{
+    color:#ef1a1a;
+    }
+    
+    #myFooter .twitter:hover{
+    color: #00aced;
+    }
+
+    #myFooter .linkedin:hover{
+    color: #4875B4;
+    }
+
+    @media screen and (max-width: 767px){
+    #myFooter {
+      text-align: center;
+    }
+    }
+    
+    
+    
+    /* CSS used for positioning the footers at the bottom of the page. */
+    /* You can remove this. */
+    
+    
+    html{
+    height: 100% !important;
+    }
+    
+    body{
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: column;
+      -webkit-flex-direction: column;
+      height: 100%;
+    }
+    
+    .content{
+    flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    min-height: 200px;
+    bottom:0;
+    position: relative;
+    width: 100%;
+   
+
+    }
+    
+    #myFooter{
+    flex: 0 0 auto;
+      -webkit-flex: 0 0 auto;
+    }
+    </style>
+    
+    <div class="content">
+    
+            
+      <footer id="myFooter" >
+          <div class="container ">
+            <br><br>
+              <div class="row">
+                  <div class=" col-sm-4 myCols">
+                      <h4>Alumni Engagement System</h4>
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">Alumni</a></li>
+                      </ul>
+                  </div>
+                 <div class="col-sm-4 myCols">
+                      <h4 id="abtus">About us</h4>
+                    <ul><li> Alumni Engagement System is a</li>
+                        <li> way in which alumni of a college can </li>
+                    <li>come together and help each other secure </li>
+                <li> a good job and donate some money to the institution.</li>
+                        </ul>
+                    </div>
+                  
+                  <div class="col-sm-4 myCols">
+                      <h4 id="contus">Contact Us</h4>
+                      <ul>
+                         <li>shubham.baranwal.poorna@gmail.com</li>
+               <li>+91-9517754744</li>
+               <li>PALS, Hyderabad</li>
+                      </ul>
+                  </div>
+    
+              </div>
+          </div>
+         
+          <div class="social-networks">
+              <a href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook-official"></i></a>
+              <a href="https://plus.google.com" class="google"><i class="fa fa-google-plus"></i></a>
+              <a href="https://www.linkedin.com" class="linkedin"><i class="fa fa-linkedin-square"></i></a>
+          </div>
+          
+          
+          <div class="footer-copyright">
+                
+              <p>© 2018 Copyright Text </p>
+            
+          </div>
+      </footer>
+    </div>
+      
+    </body>
+    
+    </html>
+    
